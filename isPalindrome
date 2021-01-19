@@ -1,0 +1,36 @@
+#defining isPalindrome function that is going to return the reverse of the input
+def isPalindrome (x):
+    return x == x[::-1]
+
+#calling the function
+x = "madam"
+answer1 = isPalindrome(x.lower())
+
+
+#returns yes if a palindrome and no if not
+if answer1:
+    print("Yes")
+else:
+    print("No")
+
+#calling the function
+x = "cat"
+answer2 = isPalindrome(x.lower())
+
+
+#returns yes if a palindrome and no if not
+if answer2:
+    print("Yes")
+else:
+    print("No")
+
+#calling the function
+x = "racecar"
+answer3 = isPalindrome(x.lower())
+
+
+#returns yes if a palindrome and no if not
+if answer3:
+    print("Yes")
+else:
+    print("No")
